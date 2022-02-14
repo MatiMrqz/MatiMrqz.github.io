@@ -32,7 +32,7 @@ const payClick=()=>{
   var sendParams=JSON.stringify({name:pname,price,email});
   console.log(sendParams)
   if(email!=''){
-    fetch('mp/mp.php',{
+    fetch('../mp/mp.php',{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
