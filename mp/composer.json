@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mercadopago/dx-php": "^2.4",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
